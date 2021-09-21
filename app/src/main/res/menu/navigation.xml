@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_petugas"
+        android:icon="@drawable/ic_round_person_24"
+        android:title="Petugas"/>
+
+    <item
+        android:id="@+id/navigation_masyarakat"
+        android:icon="@drawable/ic_round_people_alt_24"
+        android:title="Masyarakat"/>
+
+    <item
+        android:id="@+id/navigation_pengaduan"
+        android:icon="@drawable/ic_round_report_24"
+        android:title="Pengaduan"/>
+</menu>

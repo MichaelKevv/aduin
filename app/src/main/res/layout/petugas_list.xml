@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cvListPetugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/lbIdPetugasList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="00000"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lbNamaList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama : ABC" />
+
+                <TextView
+                    android:id="@+id/lbUsernameList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Username : ABC" />
+
+                <TextView
+                    android:id="@+id/lbPasswordList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Password : AAA" />
+
+                <TextView
+                    android:id="@+id/lbTelpList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No Telp : 000" />
+
+                <TextView
+                    android:id="@+id/lbRoleList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Role : AAA" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

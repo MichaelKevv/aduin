@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kevin.aduin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aduin">
+        <activity
+            android:name=".tanggapan.ManageTanggapanActivity"
+            android:theme="@style/Theme.ManageLayout"></activity>
+        <activity android:name=".tanggapan.TanggapanActivity" />
+        <activity android:name=".petugas.PetugasActivity" />
+        <activity android:name=".masyarakat.MasyarakatActivity" />
+        <activity android:name=".pengaduan.PengaduanActivity" />
+        <activity
+            android:name=".BerandaMasyarakatActivity"
+            android:theme="@style/Theme.Home" />
+        <activity
+            android:name=".BerandaActivity"
+            android:theme="@style/Theme.Home" />
+        <activity
+            android:name=".LoginMasyarakatActivity"
+            android:theme="@style/Theme.ManageLayout" />
+        <activity
+            android:name=".LoginPetugasActivity"
+            android:theme="@style/Theme.ManageLayout" />
+        <activity
+            android:name=".pengaduan.ManagePengaduanActivity"
+            android:theme="@style/Theme.ManageLayout" />
+        <activity
+            android:name=".masyarakat.ManageMasyarakatActivity"
+            android:theme="@style/Theme.ManageLayout" />
+        <activity
+            android:name=".petugas.ManagePetugasActivity"
+            android:theme="@style/Theme.ManageLayout" />
+        <activity
+            android:name=".HalamanAwalActivity"
+            android:theme="@style/Theme.Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
